@@ -24,10 +24,10 @@
 }
 
 .pad {
-    width: 375px;
-    height: 475px;
+    width: 475px;
+    height: 500px;
     position: absolute;
-    top: 150px;
+    top: 140px;
     left: 700px;
     z-index: -5;
     border: 5px solid black;
@@ -48,7 +48,16 @@ input[type=text] {
 }
 
 .results {
-    margin-left: 500px;
+    margin-left: 50px;
     font-family: 'life savers', cursive;
+    font-weight: bold;
+}
 
+#answer {
+    position: absolute;
+    z-index: 30;
+    left: 760px;
+    font-family: 'life savers', cursive;
+    font-weight: bold;
+    color: darkred;
 }
